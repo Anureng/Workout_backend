@@ -17,6 +17,7 @@ app.use(cors({
     credentials: true,
     origin: [
         'http://localhost:3000',
+        'https://workouts-j1em.onrender.com'
     ],
     optionsSuccessStatus: 200,
 }))
